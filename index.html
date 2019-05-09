@@ -1,144 +1,109 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+
 <title> Profile </title>
+
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
+
 </head>
 
 <body>
 
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-
-
-
-
-
 <div id="container1">
-<h1 align = "center"> <u> Abdul Basit Ibrahim </u> </h1>
 
-<center> <img src="pro.jpg" width="120" height="120" alt = "My Profile Picture" usemap="Mymap"> </center>
+<h1 align = "center"> <u> <b> Abdul Basit Ibrahim </b> </u> </h1>
+<center> <img id="profileimg" src="pro.jpg" width="250" height="250" alt = "My Profile Picture" usemap="Mymap"> </center>
 </div>
-<br />
 
 <hr />
 
 <div id="container2">
-<h3 > <strong> <u> About Me </u> </strong> </h3>  <p> I am a Computer Science student at National Iniversity of Sciences and Technology Islamabad.<br /> I live in Haripur and keen to work with professional and well known corporations. </p>
+<h3><strong> <u> ABOUT ME  </u> </strong> </h3>  <p> I am a Computer Science student at National University of Sciences and Technology, Islamabad. I live in Haripur and keen to work with professional and well known corporations. Currently, I am very happy to work on courses like "Web Development" and "Web Engineering".My interest are mostly playing games all the time but I want to do something for the society. I am keen to learn new and interesting things in my life. I want to excel in something that most of the people stop working because of the difficulty level of the tasks. I am also very zealeous and hardworking only for the tasks that I love.  </p>
 </div>
-
 
 <hr />
 
-<h3 id="goBack"> <strong> <u>INTERNAL LINKS </u> </strong> </h3> 
+<div id="container3">
+<center><h3 id="goBack"> <strong> <u>INTERNAL LINKS OF MY PAGE </u> </strong> </h3> </center>
 
-<div>
 <ul id="ul1"> 
-<a href="#Table"><li id="li"> Football Famous Player Stats Table </li> </a>
-<a href="#Pictures"><li id="li"> Cristiano Ronaldo Pictures Table  </li></a>
+<a href="#Pictures"><li id="li"> Cristiano Ronaldo Pictures  </li></a>
 <li id="li"><a href="#MyInterests"> Click to go to My Interests </a></li></li>
 <li id="li"><a href="#Education"> Click for my Educations Table </a> </li> 
 <li id="li"><a href="#Form"> Click to go to Feedback Forms </a></li>
+<li id="li"><a href="#Wexp"> Click to go to my Work Experience </a></li>
+<li id="li"><a href="#Fvideos"> Click to go to Football Videos </a></li>
 </ul>
 </div>
-<hr />
-
-
 
 <hr />
 
-<h3 id="MyInterests"> <strong> <u> Interests </u> </strong> </h3>
+<div id="container4">
+<h3 id="MyInterests"> <strong> <u> INTERESTS </u> </strong> </h3>
 
-<ol> <li> Football </li> <li> PC Gaming </li> <li> Swimming </li> <li> Coding </li> <li> Web Surfing </li> </ol> 
+<ol id="ol1"> <li id="li1"> Football </li> <li id="li1"> PC Gaming </li> <li id="li1"> Swimming </li> <li id="li1"> Coding </li> <li id="li1"> Web Surfing </li> </ol> 
+
+<center><a href="#goBack"><img src="https://visualpharm.com/assets/297/Back-595b40b75ba036ed117d8ad9.svg" height="50px" width="50px"></a> </center>
+
+</div>
 
 <hr />
 
-<h3> <strong> <u> Work Experience </u> </strong> </h3>
+<div id="container5">
+<h3 id="Wexp"> <strong> <u> WORK EXPERIENCE </u> </strong> </h3>
 
 <h4> EA Sport Corporation : <u>  2000-2005 </u> </h4> 
 <h4> Federation de Football Association: <u>  2006-2010 </u>  </p> </h4> 
 <h4> Tencent Corporation: <u>  2011-2018 </u> </h4>
+<center><a href="#goBack"><img src="https://visualpharm.com/assets/297/Back-595b40b75ba036ed117d8ad9.svg" height="50px" width="50px"></a> </center>
+</div>
 
 <hr />
 
-<h3 id="Education"> <strong> <u> Education </u> </strong> </h3>
+<div id="container6">
+<center><h3 id="Education"> <strong> <u> EDUCATION </u> </strong> </h3><center>
 
-<table id="edu" border = "0" width="100%" height="700px"> <tr> <th> Degree </th> <th> School/College </th> <th> Year </th> </tr>
+<table id="edu" border = "1" width="100%" height="720px">
 
-<tr> <td align="center"> Matric </td> <td> Cadet College Batrasi </td> <td> 2014 </td> 
-<tr> <td> F.Sc </td> <td> Cadet College Batrasi </td> <td> 2016 </td>  
-<tr> <td> B.Sc </td> <td> Nust Islamabad  </td> <td> 2021 </td>  
+<tr> <th> Degree </th> <th> School/College </th> <th> Year </th> </tr>
+<tr align="center"> <td> Matric </td> <td> Cadet College Batrasi </td> <td> 2014 </td> 
+<tr align="center"> <td> F.Sc </td> <td> Cadet College Batrasi </td> <td> 2016 </td>  
+<tr align="center"> <td> B.Sc </td> <td> Nust Islamabad  </td> <td> 2021 </td>  
 
 </table>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<center><a href="#goBack"><img src="https://visualpharm.com/assets/297/Back-595b40b75ba036ed117d8ad9.svg" height="50px" width="50px"></a></center>
+</div>
 
 <hr />
 
-<h3> <u> My Favourite Football videos  </u> </h3>
-<div id="videoContainer">
-<iframe id="video1" width="560" height="400" src="https://www.youtube.com/embed/pkEpLtePJm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HlMS4yf5_bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="container7">
+<center><h3 id="Fvideos"> <b> <u> MY FAVOURITE FOOTBALL VIDEOS  </u> </b> </h3> </center> <br />
+<iframe id="video1" width="50%" height="500" src="https://www.youtube.com/embed/pkEpLtePJm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650px" height="500" src="https://www.youtube.com/embed/HlMS4yf5_bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<div id="foriconcol">
+<center><a href="#goBack"><img src="https://visualpharm.com/assets/297/Back-595b40b75ba036ed117d8ad9.svg" height="50px" width="50px"></a></center>
+</div>
+<hr />
 
-<center>
-
-<a href="#goBack"><img src="https://visualpharm.com/assets/820/Back-595b40b65ba036ed117d4307.svg"></a>
-</center>
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-<h3 id="Pictures"> These are Cristiano Ronaldo Pictures </h3> 
+<div id="container8">
+<h3 id="Pictures"> <u> <b> CRISTIANO RONALDO PICTURES </b> </u> </h3> 
 <img src="1.jpg" width="350" height="360" alt = "Footballer Picture 1"> 
 <img src="2.jpg" width="350" height="360" alt = "Footballer Picture 2"> 
 <img src="3.jpg" width="350" height="360" alt = "Footballer Picture 3"> 
 <img src="4.jpg" width="350" height="360" alt = "Footballer Picture 4"> 
+</div>
+<div id="foriconcol">
+<center><a href="#goBack"><img src="https://visualpharm.com/assets/297/Back-595b40b75ba036ed117d8ad9.svg" height="50px" width="50px"></a></center>
+</div>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<hr />
 
-<map name="Mymap"> 
-<area shape="rect" coords="0,0,60,60" href="#Table">
-<area shape="rect" coords="60,0,120,60" href="#Pictures">
-<area shape="rect" coords="0,60,60,120" href="#MyInterests">
-<area shape="rect" coords="60,60,120,120" href="#Education">
-</map>
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-<h2 id="Form"> Feedback Form </h2>
+<div id="container9">
+<h2 id="Form"> <u> <b> Feedback Form </b> </u> </h2>
 
 <p> Please fill out this form to help us improve our site </p>
 
@@ -163,7 +128,7 @@ Deital.com Website <input type="radio" name="design" value="Deital.com Website">
 Reference in a book <input type="radio" name="design" value="Reference in a book"> &nbsp 
 Other <input type="checkbox" name="design" value="Other"> &nbsp  <br /> <br />
 
-<strong>Rate our site(1-10):</strong> &nbsp
+<strong>Rate my site(1-10):</strong> &nbsp
 <select>
 <option value="1">1</value>
 <option value="2">2</value>
@@ -183,35 +148,16 @@ Other <input type="checkbox" name="design" value="Other"> &nbsp  <br /> <br />
 <input type = "Reset" value = "Reset">
 
 </form>
-
-
-
-<div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+<br />
+<center><a href="#goBack"><img src="https://visualpharm.com/assets/297/Back-595b40b75ba036ed117d8ad9.svg" height="50px" width="50px"></a></center>
 </div>
 
-<div class="w3-content w3-display-container" style="width:100%">
-  <img class="mySlides" src="https://fsa.zobj.net/crop.php?r=_1afKYaGP6GnGAZ0oMRb64AL6MDD48GE_krmU6JCz6PcDDFipXz-UVgBFxDU54B1XpieMX6U0fIIX7k9D7N-efUD3F4J9XUu96xuPNDSTlnThh2h1gRmT_YsDH_6xdBOR8ogBCxCfOs2LSGUSqHfe8e5BBuMB8hNrPk46gqR14zvZqBsJ-Yfjpue278" style="width:100%">
-  <img class="mySlides" src="https://fsa.zobj.net/crop.php?r=VfRbrSO7FtgpklPTYt0I29SCcjRaUrEQZ3uGhbPsylswU7x8kkvXqt4fZcEiFxV8lz1CA694-eWiJMVWkbgD2blIIObKGowo1eY2hJfVIjQlquL0TlCtREXwOFO5bdZ4QgCKBNIMP-ctzb1f3eOyyLdchP5GQ4m4GlPjIyuM9E72W36yrPaEmpNLRd4" style="width:100%">
-  <img class="mySlides" src="https://fsa.zobj.net/crop.php?r=P1xzrl0UbfWianUcYIas3AZpfZ2SCA96pokJohYMyXcS1lgQ-K_rGJ-hKjjD6JuwGjNLbdYcFZxrdrkS8wI4wftTy0Rr3Vzn3HqDHWU_Oud_gLOUNfBHURnqgGFlcf7a-aH8DsiTWO4Qz-0JeQEED_f10dwrMbaa8-MMDRwuxLjluK-7fun7NjHWaBQ" style="width:100%">
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-  </div>
-</div>
-
-
-
+<hr />
 
 <div id="footer">
 	
-	<h3> <strong> <u> Contact Info: </u> </strong> </u> </h3> <ul> <li> <img src="https://cdn0.iconfinder.com/data/icons/social-icons-20/200/mail-icon-128.png" width="50" height="50">  abikchohan422@gmail.com </li> <li> Phone No: 03120511946 </li> <li> Address : Attar 1 Hostel Nust H-12 Islamabad </li> </ul>
+	<h3> <strong> <u> CONTACT ME </u> </strong> </u> </h3> <ul id="ul1"> <li> <img src="https://cdn0.iconfinder.com/data/icons/social-icons-20/200/mail-icon-128.png" width="30" height="30"> abikchohan422@gmail.com </li> <li> <img src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/phone-512.png" width="30" height="30"> Phone No: 03120511946 </li> <li> <img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678108-address-book-512.png" width="30" height="30"> Address : Attar 1 Hostel Nust H-12 Islamabad </li> <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/3-128.png" width="30" height="30"> Facebook Id:https://web.facebook.com/abik.chohan <li>  </ul>
 
-	<div id="innerdiv"><a href="https://web.facebook.com/abik.chohan"><img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/3-128.png"></a>facebok </div>
 </div>
-</body> 
+</body>
 </html>
