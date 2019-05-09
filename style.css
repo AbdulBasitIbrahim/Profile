@@ -3,57 +3,135 @@
 body{
 	font-family: verdana;
 }
+
+
+#profileimg{
+
+	 border-radius: 50%;
+}
+
 #container1{
 	width: 100%;
-	height: 500px;
-	color: white;
-	background-image: url("background.jpg");
+	height: 750px;
+	color: black;
+	background-image: url("https://images.pexels.com/photos/112811/pexels-photo-112811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+
 #container2{
 	width: 100%;
-	height: 500px;
+	height: 250px;
 	color: white;
 	text-align: center;
-	font-size: 30px;
-	background: linear-gradient(black, blue, green);
+	font-size: 20px;
+	background-image: url("https://images.pexels.com/photos/220618/pexels-photo-220618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
-#ul1{
-	list-style: none;
-	
 
-}
-#videoContainer{
+#container3{
 	width: 100%;
-	height: 500px;
-	background-color: gray;
-}
-#li{
-	display: inline-block;
-	border: 2px solid green;
-	width: 300px;
-	height: 30px;
-	background-color: yellow;
-	text-align: center;
+	height: 200px;
+	color: white;
+	background-image: url("https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
 
-	
+}
+
+#container4{
+	width: 100%;
+	height: 280px;
+	color: white;
+	background-image: url("https://images.pexels.com/photos/220618/pexels-photo-220618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+#container5{
+	width: 100%;
+	height: 250px;
+	color: white;
+	background-color: #261C3B;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+#container6{
+	color: white;
+	background: linear-gradient(grey,#1D3B1C);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#container7{
+	color:white;
+	width: 100%;
+	height: 570px;
+	background-color: black;
+	border: 1px;
+}
+
+#foriconcol{
+	background-color: #261C3B;
+}
+
+#container8{
+	text-align: center;
+	color:white;
+	width: 100%;
+	height: 420px;
+	background-color: black;
+	border: 1px;
+}
+
+#container9{
+	color: white;
+	background: linear-gradient(tan, blue);
+	background-repeat: no-repeat;
+	text-align: center;
 }
 
 #edu{
-	background: linear-gradient(white, yellow);
+	background: linear-gradient(grey,#1D3B1C);
 	font-size: 25px;
 }
+
+
+#ol1{
+	list-style: none;
+}
+
+#ul1{
+	list-style: none;
+	}
+
+#li{
+	font-size: 15px;
+	display: inline-block;
+	border: 2px solid grey;
+	width: 300px;
+	height: 40px;
+	color:white;
+	background-color: black;
+	text-align: center;
+
+}
+
+
+#li:hover{
+	background-color: silver;
+}
+
 #back{
 	width: 70px;
 	height: 50px;
-	background-color: 
 }
-#li:hover{
-	background-color: blue;
-	color: yellow;
-}
+
 a{
 	position: relative;
 	margin-top: 10px;
@@ -66,11 +144,4 @@ a{
 	color: white;
 	text-align: center;
 
-}
-#innerdiv{
-	position: relative;
-	left: 80%;
-	width: 100px;
-	height: 100px;
-	border: 2px solid white;
 }
